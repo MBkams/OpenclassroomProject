@@ -1,0 +1,14 @@
+@startuml
+|#pink|:Client|
+start
+:Introduirecarte;
+
+|#lightgreen|GAB|
+:verifierCarte;
+if(carteValide) then (ok)
+:demandeCode;
+
+:foo4;
+#palegreen:foo5;
+stop
+@enduml
